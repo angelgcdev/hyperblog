@@ -28,8 +28,26 @@ body {
   text-align: left;
   border: 1px solid #ddd;
   margin: 0 auto;
+  position: relative;
 }
 
 #container h1 {
   font-size: 20px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #8b8b8b;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 3.2rem;
+}
+
+footer p{
+  color: azure;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
 }
